@@ -29,6 +29,11 @@ int eingabe(int wert)
     return wert;
 }
 
+char addBook()
+{
+    return 0; 
+}
+
 
 int main()
 {
