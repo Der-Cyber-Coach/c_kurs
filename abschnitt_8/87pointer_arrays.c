@@ -11,7 +11,7 @@
 int main (void)
 {
     int length = 6;
-    //integer pointer mit der Länge von length * gGröße des integers
+    //integer pointer mit der Länge von length * Größe des integers
     int *array = (int *)malloc(length * sizeof(int));
 
     for (unsigned int i =0; i < length; i++)
