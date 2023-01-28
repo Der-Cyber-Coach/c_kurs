@@ -7,18 +7,9 @@ https://www.youtube.com/watch?v=7WOtTStiuFE&list=PL3F9Hs9aMou0og6Dzfwx__h1jjb8e8
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "funktionen.h"
 
-void menu_display()
-{
-    printf("---------- MAIN MENU -------- \n\n");
-    printf("Druecken Sie die entsprechende Taste!\n\n");
-    printf("1. Buch hinzufuegen\n");
-    printf("2. Buchinformation\n");
-    printf("3. Buchsuche\n");
-    printf("4. Verlassen\n\n");
-    printf("-----------------------------\n\n");
 
-}
 
 /// @brief Eingabefunktion
 /// @param wert 
