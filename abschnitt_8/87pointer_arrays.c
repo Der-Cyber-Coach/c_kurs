@@ -16,8 +16,9 @@ int main (void)
 
     for (unsigned int i =0; i < length; i++)
     {
-        printf("%d", i);
-        printf("array[i] = %d\n",array[i]);
+        array[i]=i;
+        printf("i = %d \t : ", i);
+        printf("array[%d] = %d\n",i,array[i]);
     };
     free(array);
     //nach einem free sollte der Array auf NULL zeigen, damit er nicht auf fremden
